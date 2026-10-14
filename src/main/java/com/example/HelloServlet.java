@@ -22,7 +22,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html><head><title>Java CI/CD</title></head>");
             out.println("<body style='font-family:Arial;text-align:center;margin-top:80px;'>");
-            out.println("<h1>Java CI/CD Pipeline v2 is Working!</h1>");
+            out.println("<h1>Java CI/CD Pipeline v3 is Working!</h1>");
             out.println("<p>Deployed using Jenkins, Maven, Docker and AWS.</p>");
             out.println("</body></html>");
         }
