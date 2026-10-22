@@ -38,7 +38,7 @@ class HelloServletTest {
         verify(response).setContentType("text/html;charset=UTF-8");
 
         assertTrue(
-            html.contains("Java CI/CD Pipeline v3 is Working!"),
+            html.contains("Java CI/CD Pipeline v4 is Working!"),
             "Response should contain the expected application heading"
         );
 
